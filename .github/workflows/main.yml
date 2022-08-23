@@ -15,7 +15,7 @@ jobs:
       with:
         ref: master
 
-    - name: sender
+    - name: main
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
